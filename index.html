@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>We're launching soon</h1>
+      <div class="timer">
+        <div class="timer__wrapper">
+          <div class="timer__flipcard--wrapper">
+            <div class="timer__flipcard days">
+              <span class="timer__digits"></span>
+              <div class="timer__overlay"></div>
+            </div>
+          </div>
+          <div class="timer__unit">Days</div>
+        </div>
+        <div class="timer__wrapper">
+          <div class="timer__flipcard--wrapper">
+            <div class="timer__flipcard hours">
+              <span class="timer__digits"></span>
+              <div class="timer__overlay"></div>
+            </div>
+          </div>
+          <div class="timer__unit">Hours</div>
+        </div>
+        <div class="timer__wrapper">
+          <div class="timer__flipcard--wrapper">
+            <div class="timer__flipcard minutes">
+              <span class="timer__digits"></span>
+              <div class="timer__overlay"></div>
+            </div>
+          </div>
+          <div class="timer__unit">Minutes</div>
+        </div>
+        <div class="timer__wrapper">
+          <div class="timer__flipcard--wrapper">
+            <div class="timer__flipcard seconds">
+              <span class="timer__digits"></span>
+              <div class="timer__overlay"></div>
+            </div>
+          </div>
+          <div class="timer__unit">Seconds</div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="images/icon-facebook.svg" alt="Facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/icon-pinterest.svg" alt="Pinterest" /></a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/icon-instagram.svg" alt="Instagram"/>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="bg-overlay bg-stars">
+      <img src="images/bg-stars.svg" alt="" />
+    </div>
+    <div class="bg-overlay bg-hills">
+      <img src="images/pattern-hills.svg" alt="" />
+    </div>
+    <div class="bg-overlay bg-gradient"></div>
+  </body>
+</html>
